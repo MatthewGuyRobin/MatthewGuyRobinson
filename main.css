@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
 
 body{
-    background-image:url(/backgroundtriangles.jpg)
+    background-image:url(/backgroundtriangles.jpg);
 }
 
 h1{
-    text-align: center;
+    text-align: right;
     font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px white;
+    font-size: 70px;
+}
 
+h4{
+    font-family: 'Abel', sans-serif;
 }
 
 .center{
@@ -17,16 +24,116 @@ h1{
 
 .wrapper{
     text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.a:hover{
+    background-color: gray;
+    text-decoration: none;
 }
 
 p{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 dl{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 ol{
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+
+.linked-in-position{
+    position: absolute;
+    left: 650px;
+    top: 250px;
+}
+
+.github-position{
+    position: absolute;
+    left: 955px;
+    top: 300px;
+}
+
+ol{
+    position: absolute;
+    left: 1500px;
+    top: 470px;
+}
+
+.ranked{
+    position: absolute;
+    left: 1430px;
+    top: 400px;
+    font-size: 30px;
+}
+
+dl{
+    position: absolute;
+    left: 1600px;
+    top: 250px;
+    font-size: 25px;
+}
+
+.food{
+    position: absolute;
+    left: 1600px;
+    top: 160px;
+    font-size: 45px;
+}
+
+.li1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.li2{
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.li3{
+    color: burlywood;
+    font-family: fantasy;
+}
+
+.li4{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.brief{
+    position: absolute;
+    left: 1750px;
+    top: 150px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+    position: absolute;
+    left: 1550px;
+    top: 90px
+}
+
+.paraone{
+    border: solid black;
+    float: left;
+    width: 70%;
+}
+.paratwo{
+    border: solid black;
+    float: left;
+    width: 70%;
+}
+.parathree{
+    border: solid black;
+    float: left;
+    width: 70%;
 }
