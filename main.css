@@ -101,7 +101,11 @@ h2{
     top: 90px
 }
 
-
+.smiths{
+    border: solid black;
+    width: 30%;
+    margin-left: 35%;
+}
 
 .para{
     border: solid black;
