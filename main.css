@@ -3,8 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
 
+
 body{
     background-image:url(/backgroundtriangles.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    display: block;
+    text-align: center;
 }
 
 h1{
@@ -16,6 +24,7 @@ h1{
 
 h4{
     font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px white;
 }
 
 .center{
@@ -23,19 +32,15 @@ h4{
 }
 
 .wrapper{
-    text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 25px;
-    text-decoration: none;
-}
-
-.a:hover{
-    background-color: gray;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
 p{
     font-family: 'Abel', sans-serif;
+    margin-left: 23.5%;
 }
 
 dl{
@@ -64,51 +69,25 @@ ol{
     top: 470px;
 }
 
-.ranked{
-    position: absolute;
-    left: 1430px;
-    top: 400px;
-    font-size: 30px;
-}
 
 dl{
     position: absolute;
-    left: 1600px;
-    top: 250px;
+    left: 180px;
+    top: 380px;
     font-size: 25px;
 }
 
 .food{
     position: absolute;
-    left: 1600px;
-    top: 160px;
+    left: 180px;
+    top: 280px;
     font-size: 45px;
-}
-
-.li1{
-    color: red;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.li2{
-    color: yellowgreen;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.li3{
-    color: burlywood;
-    font-family: fantasy;
-}
-
-.li4{
-    color: darkblue;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .brief{
     position: absolute;
     left: 1750px;
-    top: 150px;
+    top: 450px;
     font-size: 20px;
 }
 
@@ -122,18 +101,45 @@ h2{
     top: 90px
 }
 
-.paraone{
+
+
+.para{
     border: solid black;
-    float: left;
-    width: 70%;
+    width: 50%;
 }
-.paratwo{
-    border: solid black;
-    float: left;
-    width: 70%;
+
+.gitinfo{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 920px;
+    top: 470px
 }
-.parathree{
-    border: solid black;
-    float: left;
-    width: 70%;
+
+q{
+    margin: 50px;
 }
+
+div.center{
+    padding: 15px;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.goal{
+    position: absolute;
+    left: 1600px;
+    top: 280px;
+    font-size: 45px;
+}
+
+.wrapper a{
+    margin-left: 10px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
