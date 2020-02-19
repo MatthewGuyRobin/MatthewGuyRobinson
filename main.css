@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
 
 
 
@@ -103,13 +104,18 @@ h2{
 
 .smiths{
     border: solid black;
-    width: 30%;
     margin-left: 35%;
 }
 
 .para{
     border: solid black;
     width: 50%;
+}
+
+.paramov{
+    border: solid black;
+    width: 50%;
+    top: 700px
 }
 
 .gitinfo{
@@ -147,3 +153,27 @@ div.center{
     text-decoration: none;
 }
 
+.achmov{
+    position: absolute;
+    left: 875px;
+    top: 200px;
+    font-family: 'Abel', sans-serif;
+}
+
+.achmov1{
+    position: absolute;
+    left: 875px;
+    top: 330px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+q{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 25px;
+    display: block;
+}
+q:hover  {
+    /* display: none; */
+    transform: scale(1.5);
+}
